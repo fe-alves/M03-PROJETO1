@@ -24,7 +24,7 @@
 
     <section>
       <main>
-        <section>
+        <section id="cadastro">
           <form onsubmit="submitForm(event)">
             <div>
               <div>
@@ -35,7 +35,7 @@
                   placeholder="Digite o Nome do Filme"
                   required
                 />
-                <label for="nome">Nome</label>
+                <label for="nome"></label>
               </div>
               <div>
                 <input
@@ -44,7 +44,7 @@
                   id="genero"
                   placeholder="Digite o Gênero"
                 />
-                <label for="genero">Genero</label>
+                <label for="genero"></label>
               </div>
               <div>
                 <input
@@ -53,7 +53,7 @@
                   id="nota"
                   placeholder="Digite a Nota do Filme"
                 />
-                <label for="nota">Nota</label>
+                <label for="nota"></label>
               </div>
             </div>
             <div>
@@ -63,16 +63,15 @@
                 id="imagem"
                 placeholder="Digite o url da Imagem do Filme"
               />
-              <label for="imagem">Imagem</label>
+              <label for="imagem"></label>
             </div>
             <div>
               <button type="submit">Cadastrar</button>
             </div>
           </form>
-        </section>
-
-        <section>
-          <div id="lista"></div>
+          <section id="filmes">
+            <div id="lista"></div>
+          </section>
         </section>
       </main>
     </section>

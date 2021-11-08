@@ -1,0 +1,29 @@
+nav {
+  background-color: rgb(0, 0, 0);
+  align-items: center;
+  text-align: center;
+  color: beige;
+}
+
+body {
+  background-color: beige;
+}
+
+#cadastro {
+  display: flexbox;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: center;
+  flex: 1;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  width: 200px;
+  align-items: center;
+}
+
+#filmes {
+  flex-direction: column;
+  display: flex;
+}
